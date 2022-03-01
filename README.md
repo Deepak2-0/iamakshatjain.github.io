@@ -19,7 +19,7 @@
 
 An awesome modular portfolio (template) for anyone!
 
-<a href="https://deepakportfolio.netlify.app/portfolio">View Demo</a>
+<a href="https://deepakportfolio.netlify.app/">View Demo</a>
 
 </p>
 
