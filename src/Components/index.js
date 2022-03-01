@@ -162,21 +162,6 @@ class App extends PureComponent {
             </div>
             {/* <!-- /Main Content --> */}
           </div>
-          <a
-            href="https://www.linkedin.com/in/deepak-choudhary-578030146/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <footer className="footer">
-              <div className="creater">
-                Made with&nbsp;
-                <span role="img" aria-label="heart-emoji">
-                  ❤️
-                </span>
-                &nbsp; by Deepak Choudhary
-              </div>
-            </footer>
-          </a>
         </Router>
       </Fragment>
     );
