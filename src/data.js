@@ -26,7 +26,7 @@ export default {
 
     //   provide direct links to resume and vCard resource to allow downloading
     //   vCard : virtual business card
-    resume: "https://drive.google.com/file/d/1XB8tu82Odi5vTVskpxUcJmnngH103rR-/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1y7WnZmQuS8h1_ZwXcthCNcKaJX9VhPDb/view?usp=sharing",
     // vCard:
     //   "https://res.cloudinary.com/whiteknight/image/upload/v1597427637/Screenshot_from_2020-08-14_23-23-26_qzbhw8.png",
 
@@ -163,7 +163,7 @@ export default {
                 ],
                 thumbnail:
                     "https://res.cloudinary.com/dsvmpzpk1/image/upload/q_auto:low/v1646114684/Screenshot_2022-03-01_at_11.34.13_AM_ctab59.png",
-                link: "https://github.com/iamakshatjain/iamakshatjain.github.io",
+                link: "https://github.com/Deepak2-0/iamakshatjain.github.io",
             },
         ],
         // "extra Curriculars": [
