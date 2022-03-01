@@ -59,8 +59,8 @@ const Portfolio = () => {
                         <h5 className="portfolio-item-heading">{title}</h5>
                         {description && description.length > 0 && (
                           <h6 className="portfolio-item-caption">
-                            {description.map((sentence) => (
-                              <p>
+                            {description.map((sentence, index) => (
+                              <p key={index}>
                                 <span className="bullet">&bull;&nbsp;</span>
                                 {sentence}
                               </p>
@@ -74,10 +74,10 @@ const Portfolio = () => {
                               Key Skills/Technologies :
                             </h6>
                             <div className="skills-info">
-                              {skills.map((skill) => {
+                              {skills.map((skill, index) => {
                                 return (
-                                  <h6>
-                                    <span className="skill skill-small badge">
+                                  <h6 key={index}>
+                                    <span className="skill skill-small badge" key={index}>
                                       {skill}
                                     </span>
                                   </h6>

@@ -27,9 +27,9 @@ const Resume = () => {
                       endDate,
                       organisation: { name: orgName, link: orgLink },
                       description,
-                    }) => {
+                    }, index) => {
                       return (
-                        <div className="timeline-item">
+                        <div className="timeline-item" key={index}>
                           <h4 className="item-title">{title}</h4>
                           <span className="item-period">{`${startDate}-${endDate}`}</span>
                           <span className="item-small">
@@ -43,8 +43,8 @@ const Resume = () => {
                           </span>
                           {description &&
                             description.length > 0 &&
-                            description.map((sentence) => (
-                              <p className="item-description">
+                            description.map((sentence, index) => (
+                              <p className="item-description" key={index}>
                                 <span className="bullet">&bull;&nbsp;</span>
                                 {sentence}
                               </p>
@@ -74,9 +74,9 @@ const Resume = () => {
                       organisation: { name: orgName, link: orgLink },
                       description,
                       skills,
-                    }) => {
+                    }, index) => {
                       return (
-                        <div className="timeline-item">
+                        <div className="timeline-item" key={index}>
                           <h3 className="item-title">{title}</h3>
                           <span className="item-period">{`${startDate} - ${endDate}`}</span>
                           <span className="item-small">
@@ -90,8 +90,8 @@ const Resume = () => {
                           </span>
                           {description &&
                             description.length > 0 &&
-                            description.map((sentence) => (
-                              <p className="item-description">
+                            description.map((sentence, index) => (
+                              <p className="item-description" key={index}>
                                 <span className="bullet">&bull;&nbsp;</span>
                                 {sentence}
                               </p>
@@ -102,9 +102,9 @@ const Resume = () => {
                                 Key Skills/Technologies :
                               </h6>
                               <div className="skills-info">
-                                {skills.map((skill) => {
+                                {skills.map((skill, index) => {
                                   return (
-                                    <h6>
+                                    <h6 key={index}>
                                       <span className="skill skill-small badge">
                                         {skill}
                                       </span>
@@ -130,23 +130,23 @@ const Resume = () => {
                 <h3>Skills</h3>
               </div>
               {/* <!-- subskills --> */}
-              {Object.keys(skills).map((subskill) => {
+              {Object.keys(skills).map((subskill, index) => {
                 return (
-                  <>
+                  <div key={index}>
                     <div className="block-sub-title">
                       <h4 >{capitalize(subskill)}</h4>
                     </div>
 
                     <div className="skills-info">
-                      {skills[subskill].map((badge) => {
+                      {skills[subskill].map((badge, index) => {
                         return (
-                          <h4>
+                          <h4 key={index}>
                             <span className="skill badge">{badge}</span>
                           </h4>
                         );
                       })}
                     </div>
-                  </>
+                  </div>
                 );
               })}
               {/* <!-- subskills --> */}

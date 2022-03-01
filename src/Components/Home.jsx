@@ -9,7 +9,6 @@ const Home = () => {
     links: { linkedIn, twitter, github, stackOverflow },
     aboutMe: { description, location, email, phone, freelance },
     resume,
-    vCard,
   } = Data;
   return (
     <div className="sub-page-page">
