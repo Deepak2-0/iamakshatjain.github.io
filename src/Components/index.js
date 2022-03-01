@@ -57,7 +57,7 @@ class App extends PureComponent {
                 <Link to="/">
                   <div className="site-title-block mobile-hidden">
                     <div className="site-title">
-                      Akshat <span>Jain</span>
+                      Deepak <span>Choudhary</span>
                     </div>
                   </div>
                 </Link>
@@ -173,7 +173,7 @@ class App extends PureComponent {
                 <span role="img" aria-label="heart-emoji">
                   ❤️
                 </span>
-                &nbsp; by Akshat Jain
+                &nbsp; by Deepak Choudhary
               </div>
             </footer>
           </a>
