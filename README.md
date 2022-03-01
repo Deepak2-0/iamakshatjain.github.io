@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<a href="https://github.com/iamakshatjain/iamakshatjain.github.io">
+<a href="https://github.com/Deepak2-0/iamakshatjain.github.io">
 
 <!-- <img src="https://res.cloudinary.com/whiteknight/image/upload/v1597427637/Screenshot_from_2020-08-14_23-23-26_qzbhw8.png" alt="Logo" width="500"> -->
 
@@ -19,7 +19,7 @@
 
 An awesome modular portfolio (template) for anyone!
 
-<a href="https://iamakshatjain.github.io/">View Demo</a> · <a href="https://github.com/iamakshatjain/iamakshatjain.github.io/issues">Report Bug</a> · <a href="https://github.com/iamakshatjain/iamakshatjain.github.io/issues">Request Feature</a>
+<a href="https://deepakportfolio.netlify.app/portfolio">View Demo</a>
 
 </p>
 
@@ -125,7 +125,7 @@ npm install npm@latest -g
 
 ```sh
 
-git clone https://github.com/iamakshatjain/iamakshatjain.github.io.git
+git clone https://github.com/Deepak2-0/iamakshatjain.github.io
 
 ```
 
@@ -201,9 +201,9 @@ Don't forget to give the project a star! Thanks again!
 
 ##  Contact
 
-Your Name - [@iamakshtjain](https://twitter.com/iamakshtjain) - developer.akshatjain@gmail.com
+Your Name - [@deepakchoudhary](https://twitter.com/DeepakC01065864) - choudharydeepak938@gmail.com
 
-Project Link: [Virtual Card Portfolio](https://github.com/iamakshatjain/iamakshatjain.github.io/)
+Project Link: [Virtual Card Portfolio](https://github.com/Deepak2-0/iamakshatjain.github.io)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -221,4 +221,4 @@ Project Link: [Virtual Card Portfolio](https://github.com/iamakshatjain/iamaksha
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[product-screenshot]: https://res.cloudinary.com/whiteknight/image/upload/v1597427637/Screenshot_from_2020-08-14_23-23-26_qzbhw8.png
+[product-screenshot]: https://res.cloudinary.com/dsvmpzpk1/image/upload/q_auto:low/v1646114684/Screenshot_2022-03-01_at_11.34.13_AM_ctab59.png

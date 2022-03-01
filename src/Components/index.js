@@ -114,7 +114,7 @@ class App extends PureComponent {
             <div className="mobile-header mobile-visible">
               <Link to="/">
                 <div className="mobile-logo-container">
-                  <div className="mobile-site-title">Akshat Jain</div>
+                  <div className="mobile-site-title">Deepak Choudhary</div>
                 </div>
               </Link>
 
@@ -163,7 +163,7 @@ class App extends PureComponent {
             {/* <!-- /Main Content --> */}
           </div>
           <a
-            href="https://www.linkedin.com/in/iamakshtjain/"
+            href="https://www.linkedin.com/in/deepak-choudhary-578030146/"
             target="_blank"
             rel="noopener noreferrer"
           >
